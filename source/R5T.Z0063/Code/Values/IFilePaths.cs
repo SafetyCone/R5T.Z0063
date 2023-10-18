@@ -19,6 +19,8 @@ namespace R5T.Z0063
         public ITextFilePath HumanOutputTextFilePath => Platform.HumanOutputTextFilePath.ToTextFilePath();
         public ILogFilePath LogFilePath => Platform.LogFilePath.ToLogFilePath();
         public IDataFilePath OutputDataFilePath => Platform.OutputDataFilePath.ToDataFilePath();
+
+        /// <inheritdoc cref="Platform.IFilePaths.OutputErrorsTextFilePath"/>
         public ITextFilePath OutputErrorsTextFilePath => Platform.OutputErrorsTextFilePath.ToTextFilePath();
         public IHtmlFilePath OutputHtmlFilePath => Platform.OutputHtmlFilePath.ToHtmlFilePath();
         public IJsonFilePath OutputJsonFilePath => Platform.OutputJsonFilePath.ToJsonFilePath();

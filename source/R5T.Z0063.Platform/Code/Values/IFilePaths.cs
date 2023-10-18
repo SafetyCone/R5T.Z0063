@@ -14,6 +14,10 @@ namespace R5T.Z0063.Platform
         public string HumanOutputTextFilePath => @"C:\Temp\Human Output.txt";
         public string LogFilePath => @"C:\Temp\log.txt";
         public string OutputDataFilePath => @"C:\Temp\Output.dat";
+
+        /// <summary>
+        /// "C:\Temp\Errors.txt"
+        /// </summary>
         public string OutputErrorsTextFilePath => @"C:\Temp\Errors.txt";
         public string OutputHtmlFilePath => @"C:\Temp\Output.html";
         public string OutputJsonFilePath => @"C:\Temp\Output.json";
