@@ -10,9 +10,12 @@ namespace R5T.Z0063
     [ValuesMarker]
     public partial interface IDirectoryPaths : IValuesMarker
     {
-        private static Platform.IDirectoryPaths Platform => Z0063.Platform.DirectoryPaths.Instance;
+#pragma warning disable IDE1006 // Naming Styles
+        private static Platform.IDirectoryPaths _Platform => Platform.DirectoryPaths.Instance;
+#pragma warning restore IDE1006 // Naming Styles
 
 
-        public IDirectoryPath Temp => Platform.Temp.ToDirectoryPath();
+        /// <inheritdoc cref="Platform.IDirectoryPaths.Temp"/>
+        public IDirectoryPath Temp => _Platform.Temp.ToDirectoryPath();
     }
 }
