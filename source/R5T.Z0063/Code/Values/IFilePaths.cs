@@ -25,6 +25,8 @@ namespace R5T.Z0063
         /// <inheritdoc cref="Platform.IFilePaths.OutputErrorsTextFilePath"/>
         public ITextFilePath OutputErrorsTextFilePath => _Platform.OutputErrorsTextFilePath.ToTextFilePath();
         public IHtmlFilePath OutputHtmlFilePath => _Platform.OutputHtmlFilePath.ToHtmlFilePath();
+
+        /// <inheritdoc cref="Platform.IFilePaths.OutputJsonFilePath"/>
         public IJsonFilePath OutputJsonFilePath => _Platform.OutputJsonFilePath.ToJsonFilePath();
         public ITextFilePath OutputTextFilePath => _Platform.OutputTextFilePath.ToTextFilePath();
         public ITextFilePath OutputTextFilePath_Secondary => _Platform.OutputTextFilePath_Secondary.ToTextFilePath();

@@ -16,10 +16,14 @@ namespace R5T.Z0063.Platform
         public string OutputDataFilePath => @"C:\Temp\Output.dat";
 
         /// <summary>
-        /// "C:\Temp\Errors.txt"
+        /// <para><value>C:\Temp\Errors.txt</value></para>
         /// </summary>
         public string OutputErrorsTextFilePath => @"C:\Temp\Errors.txt";
         public string OutputHtmlFilePath => @"C:\Temp\Output.html";
+
+        /// <summary>
+        /// <para><value>C:\Temp\Output.json</value></para>
+        /// </summary>
         public string OutputJsonFilePath => @"C:\Temp\Output.json";
         public string OutputTextFilePath => @"C:\Temp\Output.txt";
         public string OutputTextFilePath_Secondary => @"C:\Temp\Output2.txt";
