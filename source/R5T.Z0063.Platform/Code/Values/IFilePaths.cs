@@ -25,6 +25,10 @@ namespace R5T.Z0063.Platform
         /// <para><value>C:\Temp\Output.json</value></para>
         /// </summary>
         public string OutputJsonFilePath => @"C:\Temp\Output.json";
+
+        /// <summary>
+        /// <para><value>C:\Temp\Output.txt</value></para>
+        /// </summary>
         public string OutputTextFilePath => @"C:\Temp\Output.txt";
         public string OutputTextFilePath_Secondary => @"C:\Temp\Output2.txt";
         public string OutputTextFilePath_Tertiary => @"C:\Temp\Output3.txt";
