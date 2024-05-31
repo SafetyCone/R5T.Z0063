@@ -1,9 +1,8 @@
 using System;
 
 
-namespace R5T.Z0063.Platform
+namespace R5T.Z0063.Z000
 {
-    [Obsolete("See R5T.Z0063.Z002.DirectoryPaths")]
     public class DirectoryPaths : IDirectoryPaths
     {
         #region Infrastructure

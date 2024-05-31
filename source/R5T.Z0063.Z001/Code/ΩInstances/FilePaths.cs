@@ -1,9 +1,8 @@
 using System;
 
 
-namespace R5T.Z0063.Platform
+namespace R5T.Z0063.Z001
 {
-    [Obsolete("See R5T.Z0063.Z002.FilePaths")]
     public class FilePaths : IFilePaths
     {
         #region Infrastructure
@@ -18,4 +17,3 @@ namespace R5T.Z0063.Platform
         #endregion
     }
 }
-
