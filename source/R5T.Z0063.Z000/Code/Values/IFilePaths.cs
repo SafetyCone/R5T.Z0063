@@ -33,6 +33,16 @@ namespace R5T.Z0063.Z000
         public string C_Temp_Output_dat => @"C:\Temp\Output.dat";
 
         /// <summary>
+        /// <para><value>C:\Temp\Output.docx</value></para>
+        /// </summary>
+        public string C_Temp_Output_docx => @"C:\Temp\Output.docx";
+
+        /// <summary>
+        /// <para><value>C:\Temp\Output.xlsx</value></para>
+        /// </summary>
+        public string C_Temp_Output_xlsx => @"C:\Temp\Output.xlsx";
+
+        /// <summary>
         /// <para><value>C:\Temp\Output.html</value></para>
         /// </summary>
         public string C_Temp_Output_html => @"C:\Temp\Output.html";

@@ -43,6 +43,18 @@ namespace R5T.Z0063.Z002
         public string Output_Errors_Text_FilePath => _Raw.C_Temp_Errors_txt;
 
         /// <summary>
+        /// The output Excel file path.
+        /// <para><inheritdoc cref="Z000.IFilePaths.C_Temp_Errors_txt" path="descendant::value"/></para>
+        /// </summary>
+        public string Output_Excel_FilePath => _Raw.C_Temp_Output_xlsx;
+
+        /// <summary>
+        /// The output Word file path.
+        /// <para><inheritdoc cref="Z000.IFilePaths.C_Temp_Output_docx" path="descendant::value"/></para>
+        /// </summary>
+        public string Output_Word_FilePath => _Raw.C_Temp_Output_docx;
+
+        /// <summary>
         /// The output HTML file path.
         /// <para><inheritdoc cref="Z000.IFilePaths.C_Temp_Output_html" path="descendant::value"/></para>
         /// </summary>
