@@ -1,6 +1,7 @@
 using System;
 
 using R5T.T0131;
+using R5T.T0143;
 using R5T.T0180;
 using R5T.T0180.Extensions;
 
@@ -11,7 +12,10 @@ namespace R5T.Z0063
     public partial interface IDirectoryPaths : IValuesMarker
     {
 #pragma warning disable IDE1006 // Naming Styles
+
+        [Ignore]
         private static Z002.IDirectoryPaths _Strings => Z002.DirectoryPaths.Instance;
+
 #pragma warning restore IDE1006 // Naming Styles
 
 

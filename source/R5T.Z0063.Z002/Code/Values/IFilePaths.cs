@@ -1,6 +1,7 @@
 using System;
 
 using R5T.T0131;
+using R5T.T0143;
 
 
 namespace R5T.Z0063.Z002
@@ -13,7 +14,10 @@ namespace R5T.Z0063.Z002
     public partial interface IFilePaths : IValuesMarker
     {
 #pragma warning disable IDE1006 // Naming Styles
+
+        [Ignore]
         public Z000.IFilePaths _Raw => Z000.FilePaths.Instance;
+
 #pragma warning restore IDE1006 // Naming Styles
 
 
